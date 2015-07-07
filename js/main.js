@@ -5,13 +5,22 @@ app.controller('TimelineCtrl', function($scope){
     position: 'Student - Coding House',
     desc: '60 day full-immersion bootcamp in full-stack javascript development.',
     pers: 'Gain the ability to create cool products from the ground up!',
-    dates: 'June 8 - August 14, 2015',
+    dates: 'June 2015 - August 2015',
     techz: [
       'CSS / Design: Foundation for Apps (Zurb), Bootstrap',
       'Front End: Angular 1.x, Jade, jQuery, Handlebars',
       'Backend: Node, Express, MongoDB, Firebase',
       'Testing: Mocha, Chai',
       'Automation: Gulp']
+  },{
+    position: 'Software Developer - Verafin',
+    desc: 'Teams included interface and product development, data integration & ETL, operations, and internal engineering in an agile business environment utilizing Scrum and Kanban.',
+    pers: 'Absorb all that company culture should be, and learn as much about software development as possibile',
+    dates: 'May 2011 - May 2015',
+    techz: [
+      'Development: Java, SQL, Apex, VisualForce, SOQL',
+      'Dependency Management and Injection: Guice, Gradle',
+      'Testing: JUnit, TeamCity']
   }];
 });
 
